@@ -1,16 +1,16 @@
-var ADDR_IP_CAM = "111.70.9.25";
-var PORT_IP_CAM_API = "10015";
-var PORT_IP_CAM_RTSP = "10021";
-var UNAME_IP_CAM = "Admin";
-var UWORD_IP_CAM = "1234";
+var ADDR_IP_CAM = "[IP_CAM_ADDR]";
+var PORT_IP_CAM_API = "[IP_CAM_HTTP]";
+var PORT_IP_CAM_API = "[IP_CAM_MJPG]";
+var UNAME_IP_CAM = "[IP_CAM_UNAME]";
+var UWORD_IP_CAM = "[IP_CAM_PASSWORD]";
 var ENABLE_AUTH_IP_CAM = 1; //1: TRUE, 0: FALSE
 
 
-var ADDR_KURENTO_SERVER = "hi1.iottalk.tw";  
+var ADDR_KURENTO_SERVER = "[iottalk server]";  
 var PORT_KURENTO_SERVER = "8433"; // WSS WebSocket Secure
 
-var ADDR_REMOTE_CONTROL  = "http://iot.iottalk.tw/RemoteControl/Orchidlight1";
-var ADDR_REMOTE_CONTROL2 = "http://iot.iottalk.tw/RemoteControl/Orchidlight2";
+var ADDR_REMOTE_CONTROL  = "[REMOTE_CONTROL_URL1]";
+var ADDR_REMOTE_CONTROL2 = "[REMOTE_CONTROL_URL2]";
 
 function reqListener () {
 	console.log(this.responseText);
